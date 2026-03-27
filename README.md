@@ -16,7 +16,7 @@
 
 - 原書作者：[Eric Jorgenson](https://ejorgenson.com) ([@EricJorgenson](https://x.com/EricJorgenson))
 - 系列作品：《The Almanack of Naval Ravikant》（納瓦爾寶典）、《The Anthology of Balaji》（巴拉吉選集）
-- 原書免費下載：[PDF](https://www.thebookofelon.com/pdf) / [EPUB](https://www.thebookofelon.com/epub) / [Amazon Kindle](https://www.amazon.com/-/zh_TW/Eric-Jorgenson-ebook/dp/B0GFXKWVBK/ref=tmm_kin_swatch_0)
+- 原書免費下載：[PDF](https://62609079.click.kit-mail3.com/wvu68ll4q2c6u5vz0nni7hnzwpq7du8hw4g3d/8ghqhohodolr5lbk/aHR0cHM6Ly9ib29rLW9mLWVsb24uczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb20vVGhlK0Jvb2srb2YrRWxvbitGcmVlK1BERi5wZGY=) / [EPUB](https://62609079.click.kit-mail3.com/wvu68ll4q2c6u5vz0nni7hnzwpq7du8hw4g3d/vqh3hrho0opwkohg/aHR0cHM6Ly9ib29rLW9mLWVsb24uczMudXMtZWFzdC0yLmFtYXpvbmF3cy5jb20vVGhlK0Jvb2srb2YrRWxvbitGcmVlK2VwdWIuZXB1Yg==) / [Amazon Kindle](https://www.amazon.com/-/zh_TW/Eric-Jorgenson-ebook/dp/B0GFXKWVBK/ref=tmm_kin_swatch_0)
 
 ## 章節目錄
 
