@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 06: 設計組織 — The Book of Elon</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a class="logo" href="../index.html">THE BOOK OF <span>ELON</span></a>
+    <button class="hamburger" onclick="this.nextElementSibling.classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="../index.html">目錄</a>
+      <a href="ch05.html">← 上一章</a>
+      <a href="ch07.html">下一章 →</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="ch-hero">
+  <div class="container">
+    <div class="ch-badge fade-up">PART II: ULTRA HARDCORE WORK · CHAPTER 06</div>
+    <h1 class="fade-up">設計組織</h1>
+    <p class="ch-oneliner fade-up">「必須讓人們可以直接對話，讓正確的事情發生。」</p>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- ═══ 故事摘要 ═══ -->
+  <div class="content-section">
+    <div class="section-label fade-up">📖 故事摘要</div>
+
+    <div class="story-block fade-up">
+      <h3>打破組織邊界 (Remove Organizational Boundaries)</h3>
+      <p>Elon 認為<strong>產品中的錯誤反映了組織結構的問題</strong>。Tesla Model 3 就有一個經典案例：電池組團隊做了一個頂部外殼，車身團隊也做了一個底部護板——結果電池組上方多了一層不必要的蓋子，因為「電池上面就是車啊」。</p>
+      <p>他堅決反對「指揮鏈」式的溝通：如果一個基層員工要找另一個部門的人合作，卻要經過經理→總監→VP→另一個VP→總監→經理→實際做事的人，<strong>「超級蠢的事就會發生」</strong>。任何人都應該、也有義務直接找到最能解決問題的人對話。</p>
+    </div>
+
+    <div class="story-block fade-up">
+      <h3>創新需要容許失敗 (Innovation Needs Permission to Fail)</h3>
+      <p>SpaceX 早期火箭失敗時，Elon <strong>沒有開除任何負責那些失敗原因的人</strong>——因為他們聰明且努力，只是決策可以更好。只有在某人無法對核心使命感到興奮，或明顯沒有全力以赴時，才應該讓他離開。</p>
+      <p>他的原則是：<strong>如果懲罰失敗太嚴厲，你只會得到漸進式創新</strong>。沒有人會為了怕被開除而冒險嘗試大膽的想法。他甚至對一位沮喪的工程師說：「如果你不能告訴我你在做對之前搞砸了哪四個地方，你就不是真正做事的人。」</p>
+    </div>
+
+    <div class="story-block fade-up">
+      <h3>簡單就是贏 (Simplicity Wins)</h3>
+      <p>Model 3 車身線原本設計為每週生產五千輛，最終做到了七千輛——<strong>靠的是移除東西，而不是增加</strong>。透過簡化設計、數百個小改進，同一條產線多了 40% 的產能。</p>
+      <p>Model Y 的後車身改用<strong>一體式鑄造</strong>，消除了數十個零件、不同金屬接合的問題，車身車間縮小 30%，減少了三百個機器人。Elon 說：<strong>「最好的零件就是沒有零件，最好的流程就是沒有流程。」</strong></p>
+    </div>
+
+    <div class="story-block fade-up">
+      <h3>演算法 (The Algorithm)</h3>
+      <p>Elon 在所有公司推行的五步工程流程，<strong>順序非常重要</strong>：1. 讓需求變得不那麼笨；2. 努力刪除零件或流程；3. 簡化或優化；4. 加速；5. 自動化。</p>
+      <p>他親身犯過的錯誤是<strong>反向執行</strong>：Tesla 電池組產線上有一層玻璃纖維墊，他先花大量時間優化自動化、加速機器人、改良膠水。最後才發現——電池安全團隊說那是隔音用的，隔音團隊說那是防火用的——<strong>實際測試後，有沒有這層墊子根本聽不出差異</strong>。刪除後省下了兩百萬美元的機器人設備。</p>
+    </div>
+  </div>
+
+  <!-- ═══ 核心重點 ═══ -->
+  <div class="content-section">
+    <div class="section-label fade-up">🔑 核心重點</div>
+    <h2 class="section-title fade-up">這一章的 10 個關鍵觀念</h2>
+
+    <ul class="key-points fade-up">
+      <li><strong>產品反映組織結構</strong> — 部門邊界會直接變成產品中不必要的重複</li>
+      <li><strong>溝通走最短路徑</strong> — 任何人都可以直接找任何人，包括 CEO，不需要經過指揮鏈</li>
+      <li><strong>不要用縮寫和行話</strong> — 需要解釋的詞彙會阻礙溝通，新員工不該需要背字典</li>
+      <li><strong>親自到問題現場</strong> — 盡可能接近來源，直接問做事的人，而非只聽管理層報告</li>
+      <li><strong>容許失敗才有創新</strong> — 懲罰太重只會得到漸進式改進，風險報酬必須鼓勵大膽嘗試</li>
+      <li><strong>簡單就是贏</strong> — 更少零件 = 更少故障 + 更低成本 + 更高可靠性</li>
+      <li><strong>最好的零件是沒有零件</strong> — 一體式鑄造取代數十個零件，消除接合問題</li>
+      <li><strong>演算法第一步：質疑需求</strong> — 需求一定是笨的，聰明人提出的需求更危險（因為你不敢質疑）</li>
+      <li><strong>刪除要過度矯正</strong> — 如果你不需要把 10% 刪掉的東西加回來，你刪得還不夠</li>
+      <li><strong>先刪再簡化，最後才自動化</strong> — 加速不該存在的東西是荒謬的，挖墳墓就別挖更快</li>
+    </ul>
+  </div>
+
+  <!-- ═══ 金句 ═══ -->
+  <div class="content-section">
+    <div class="section-label fade-up">💬 書中金句</div>
+
+    <div class="quote-block fade-up">
+      <p class="quote-en">"The best part is no part. The best process is no process."</p>
+      <p class="quote-zh">最好的零件就是沒有零件。最好的流程就是沒有流程。</p>
+    </div>
+
+    <div class="quote-block fade-up">
+      <p class="quote-en">"The most common mistake of smart engineers is to optimize a thing that should not exist."</p>
+      <p class="quote-zh">聰明工程師最常犯的錯誤，是去優化一個根本不應該存在的東西。</p>
+    </div>
+
+    <div class="quote-block fade-up">
+      <p class="quote-en">"If you're not adding deleted things back in 10% of the time, you're not deleting enough."</p>
+      <p class="quote-zh">如果你不需要把 10% 刪掉的東西加回來，那你刪得還不夠。</p>
+    </div>
+  </div>
+
+  <!-- ═══ 概念圖解 ═══ -->
+  <div class="content-section">
+    <div class="section-label fade-up">🧠 概念圖解</div>
+
+    <div class="diagram-container fade-up">
+      <div class="diagram-title">The Algorithm — 五步工程流程</div>
+      <div class="framework" style="gap:16px">
+        <div class="fw-row">
+          <div class="fw-box accent" style="min-width:140px">1. 質疑需求<br><span style="font-size:0.7rem;color:var(--text-sec)">需求一定是笨的</span></div>
+          <div class="fw-arrow">→</div>
+          <div class="fw-box accent" style="min-width:140px">2. 刪除<br><span style="font-size:0.7rem;color:var(--text-sec)">努力刪除零件或流程</span></div>
+          <div class="fw-arrow">→</div>
+          <div class="fw-box accent" style="min-width:140px">3. 簡化/優化<br><span style="font-size:0.7rem;color:var(--text-sec)">不是第一步！</span></div>
+        </div>
+        <div class="fw-row">
+          <div class="fw-box" style="min-width:140px">4. 加速<br><span style="font-size:0.7rem;color:var(--text-sec)">方向對了再加速</span></div>
+          <div class="fw-arrow">→</div>
+          <div class="fw-box cyan" style="min-width:140px">5. 自動化<br><span style="font-size:0.7rem;color:var(--text-sec)">最後才做</span></div>
+        </div>
+        <div class="fw-label">順序非常重要！Elon 親身犯過反向執行的錯誤</div>
+      </div>
+    </div>
+
+    <div class="diagram-container fade-up">
+      <div class="diagram-title">溝通方式對比</div>
+      <div class="framework" style="gap:16px">
+        <div class="fw-row">
+          <div class="fw-box" style="border-color:var(--text-dim)">指揮鏈溝通<br><span style="font-size:0.7rem;color:var(--text-sec)">員工→經理→總監→VP→VP→總監→經理→員工</span></div>
+        </div>
+        <div class="fw-arrow">vs</div>
+        <div class="fw-row">
+          <div class="fw-box cyan">最短路徑溝通<br><span style="font-size:0.7rem;color:var(--text-sec)">員工 ↔ 員工（直接對話）</span></div>
+        </div>
+        <div class="fw-label">任何試圖強制指揮鏈溝通的經理，很快就會發現自己在別處工作</div>
+      </div>
+    </div>
+
+    <div class="diagram-container fade-up">
+      <div class="diagram-title">簡化的遞迴效應（以 Starship 為例）</div>
+      <div class="framework" style="gap:16px">
+        <div class="fw-box accent">多 1 噸隔熱層</div>
+        <div class="fw-arrow">↓ 需要更多燃料送上軌道</div>
+        <div class="fw-box accent">+ 更多燃料脫軌</div>
+        <div class="fw-arrow">↓ 需要更多燃料著陸</div>
+        <div class="fw-box accent">+ 更強結構承載</div>
+        <div class="fw-arrow">↓ 遞迴因子 ≈ 1.8x</div>
+        <div class="fw-box cyan">每增加 1 噸 ≈ 實際增加近 2 噸</div>
+        <div class="fw-label">這就是為什麼刪除如此重要</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 一句話帶走 ═══ -->
+  <div class="takeaway fade-up">
+    <div class="label">⚡ 一句話帶走</div>
+    <p>先質疑需求、再刪除、再簡化——不要去優化一個根本不應該存在的東西。<br>最好的零件就是沒有零件。</p>
+  </div>
+
+  <!-- ═══ 導航 ═══ -->
+  <div class="ch-nav">
+    <a href="ch05.html">← 第 5 章：打造卓越團隊</a>
+    <a href="../index.html">回到目錄</a>
+    <a href="ch07.html">第 7 章 →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p>基於《The Book of Elon》by Eric Jorgenson · 深度學習筆記</p>
+    <p style="margin-top:8px">繁體中文版製作：<a href="https://www.threads.com/@eugeneliu1027?hl=zh-tw" target="_blank" style="color:var(--accent)">@eugeneliu1027</a></p>
+  </div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

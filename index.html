@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Book of Elon — 深度學習筆記</title>
+  <meta name="description" content="《The Book of Elon》逐章深度學習筆記，用 Elon Musk 的原話理解他的創業方法論和思維模式。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a class="logo" href="index.html">THE BOOK OF <span>ELON</span></a>
+    <button class="hamburger" onclick="this.nextElementSibling.classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#chapters">章節目錄</a>
+      <a href="#about">關於本書</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="min-height:80vh">
+  <div class="hero-content" style="display:flex;align-items:center;gap:48px;max-width:900px">
+    <div style="flex:1">
+      <div class="hero-badge">深度學習筆記</div>
+      <h1>The Book of <span class="glow">Elon</span></h1>
+      <p class="subtitle">Elon Musk 最有用的想法，用他自己的話說。一本關於目的與成功的指南——逐章精煉，助你快速理解矽谷最大膽創業者的思維模式。</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="#chapters" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:0.9rem;transition:all 0.3s">⚡ 開始閱讀</a>
+        <a href="#about" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:8px;border:1px solid var(--border);color:var(--text-sec);text-decoration:none;font-weight:600;font-size:0.9rem;transition:all 0.3s">📖 關於本書</a>
+      </div>
+    </div>
+    <div style="flex-shrink:0">
+      <img src="cover.jpeg" alt="The Book of Elon 封面" style="width:240px;border-radius:12px;box-shadow:0 20px 60px rgba(59,130,246,0.15),0 0 80px rgba(59,130,246,0.05)">
+    </div>
+  </div>
+  <style>
+    @media (max-width: 700px) {
+      .hero-content { flex-direction: column !important; text-align: center; }
+      .hero-content img { width: 180px !important; }
+    }
+  </style>
+</section>
+
+<section id="about" style="background:var(--surface)">
+  <div class="container">
+    <div class="section-label fade-up">關於本書</div>
+    <h2 class="section-title fade-up">一本用 Elon 自己的話寫成的書</h2>
+    <p class="section-desc fade-up">這不是傳統傳記，而是直接從 Elon 的話語中提煉出的實用洞見——第一性原理思考、追求有意義的工作、解決重要問題、打造推動人類前進的東西。</p>
+
+    <!-- 統計數據 -->
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px" class="fade-up">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;text-align:center">
+        <div style="font-family:var(--mono);font-size:1.6rem;font-weight:900;color:var(--accent)">4</div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-top:4px">大篇章</div>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;text-align:center">
+        <div style="font-family:var(--mono);font-size:1.6rem;font-weight:900;color:var(--cyan)">15</div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-top:4px">主題章節</div>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;text-align:center">
+        <div style="font-family:var(--mono);font-size:1.6rem;font-weight:900;color:#4ade80">401</div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-top:4px">頁</div>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;text-align:center">
+        <div style="font-family:var(--mono);font-size:1.6rem;font-weight:900;color:#f472b6">5M+</div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-top:4px">系列讀者</div>
+      </div>
+    </div>
+
+    <!-- 作者介紹 -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:48px" class="fade-up">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px">
+        <div style="font-size:0.68rem;font-weight:700;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:10px">關於作者</div>
+        <div style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--white);margin-bottom:12px">Eric Jorgenson</div>
+        <p style="font-size:0.88rem;color:var(--text-sec);line-height:1.7;margin-bottom:12px">《The Almanack of Naval Ravikant》（中譯：《納瓦爾寶典》）和《The Anthology of Balaji》（中譯：《巴拉吉選集》）的作者，系列作品累計超過 500 萬讀者。同時也是新創投資人和 Podcast「Smart Friends」的主持人。</p>
+        <p style="font-size:0.88rem;color:var(--text-sec);line-height:1.7">他的使命是：<span style="color:var(--white);font-weight:600">「幫助創造一百萬個像 Elon Musk 一樣思考和建造的人。」</span></p>
+        <div style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="https://ejorgenson.com" target="_blank" style="font-size:0.78rem;color:var(--accent);text-decoration:none">🌐 EJorgenson.com</a>
+          <a href="https://x.com/EricJorgenson" target="_blank" style="font-size:0.78rem;color:var(--accent);text-decoration:none">𝕏 @EricJorgenson</a>
+        </div>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px">
+        <div style="font-size:0.68rem;font-weight:700;color:var(--cyan);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:10px">免費下載</div>
+        <div style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--white);margin-bottom:12px">作者免費贈書</div>
+        <p style="font-size:0.88rem;color:var(--text-sec);line-height:1.7;margin-bottom:16px">Eric 相信這本書的資訊能幫助每一個人。如果你無法取得或負擔這本書，他想親自送給你——完整內容免費閱讀和下載。</p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <a href="https://www.thebookofelon.com/pdf" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:8px;background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.3);color:var(--accent);text-decoration:none;font-size:0.85rem;font-weight:600;transition:all 0.3s">📄 下載 PDF 版本</a>
+          <a href="https://www.thebookofelon.com/epub" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:8px;background:rgba(6,182,212,0.1);border:1px solid rgba(6,182,212,0.3);color:var(--cyan);text-decoration:none;font-size:0.85rem;font-weight:600;transition:all 0.3s">📱 下載 EPUB 版本</a>
+          <a href="https://www.amazon.com/-/zh_TW/Eric-Jorgenson-ebook/dp/B0GFXKWVBK/ref=tmm_kin_swatch_0" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:8px;background:rgba(251,146,60,0.1);border:1px solid rgba(251,146,60,0.3);color:#fb923c;text-decoration:none;font-size:0.85rem;font-weight:600;transition:all 0.3s">🛒 Amazon Kindle 電子書</a>
+        </div>
+        <p style="font-size:0.75rem;color:var(--text-dim);margin-top:12px">Kindle 版本 $4.99 · Naval Ravikant 作序推薦</p>
+      </div>
+    </div>
+
+    <!-- 書的使命 -->
+    <div style="background:linear-gradient(135deg,rgba(59,130,246,0.08),rgba(6,182,212,0.08));border:1px solid rgba(59,130,246,0.2);border-radius:12px;padding:28px;margin-top:24px;text-align:center" class="fade-up">
+      <p style="font-size:0.75rem;color:var(--accent);font-weight:700;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px">本書使命</p>
+      <p style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--white);line-height:1.5">「腦中有好想法的人越多，每個人都越受益。」<br><span style="font-size:0.85rem;color:var(--text-sec);font-weight:400">— Eric Jorgenson</span></p>
+    </div>
+  </div>
+</section>
+
+<section id="chapters">
+  <div class="container">
+    <div class="section-label fade-up">章節目錄</div>
+    <h2 class="section-title fade-up">逐章深度閱讀</h2>
+    <p class="section-desc fade-up">每章 5-10 分鐘，精煉書中故事、核心重點、金句和概念圖解。</p>
+
+    <div class="part-label fade-up">PART I — 追尋目的</div>
+    <div class="chapters-grid">
+      <a class="ch-card fade-up" href="chapters/ch01.html">
+        <div class="ch-num">CHAPTER 01</div>
+        <h3>活出有目的的人生</h3>
+        <p>做有用的人、為未來而戰、像地獄般工作、直面恐懼</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch02.html">
+        <div class="ch-num">CHAPTER 02</div>
+        <h3>像物理學家一樣思考</h3>
+        <p>第一性原理、極限思維、追求真相、渴望「更少的錯」</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch03.html">
+        <div class="ch-num">CHAPTER 03</div>
+        <h3>工程的價值</h3>
+        <p>工程是魔法、工程贏得戰爭、工程創造價值</p>
+      </a>
+    </div>
+
+    <div class="part-label fade-up">PART II — 極致硬核工作</div>
+    <div class="chapters-grid">
+      <a class="ch-card fade-up" href="chapters/ch04.html">
+        <div class="ch-num">CHAPTER 04</div>
+        <h3>成功需要什麼</h3>
+        <p>承擔責任、深度理解、睡在工廠、逆境鍛造力量</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch05.html">
+        <div class="ch-num">CHAPTER 05</div>
+        <h3>打造卓越團隊</h3>
+        <p>建立建造者文化、只留特種部隊、回饋重於感受</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch06.html">
+        <div class="ch-num">CHAPTER 06</div>
+        <h3>設計組織</h3>
+        <p>消除組織邊界、簡單溝通、創新需要失敗的許可、The Algorithm</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch07.html">
+        <div class="ch-num">CHAPTER 07</div>
+        <h3>瘋狂的急迫感</h3>
+        <p>不浪費時間、平行處理、拆解不可能、激進的時間表</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch08.html">
+        <div class="ch-num">CHAPTER 08</div>
+        <h3>我們必須製造東西</h3>
+        <p>真正的工作、工廠就是產品、攻擊瓶頸、製造就是護城河</p>
+      </a>
+    </div>
+
+    <div class="part-label fade-up">PART III — 建立公司</div>
+    <div class="chapters-grid">
+      <a class="ch-card fade-up" href="chapters/ch09.html">
+        <div class="ch-num">CHAPTER 09</div>
+        <h3>成為創辦人</h3>
+        <p>Zip2 的起點、All In PayPal、傾聽並快速修正</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch10.html">
+        <div class="ch-num">CHAPTER 10</div>
+        <h3>建造 Tesla</h3>
+        <p>保護地球的使命、序列策略、讓人們用更少得到更多</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch11.html">
+        <div class="ch-num">CHAPTER 11</div>
+        <h3>建造 SpaceX</h3>
+        <p>唯一瘋狂到做太空的人、火箭的第一性原理、炸東西才能進步</p>
+      </a>
+    </div>
+
+    <div class="part-label fade-up">PART IV — 為了全人類</div>
+    <div class="chapters-grid">
+      <a class="ch-card fade-up" href="chapters/ch12.html">
+        <div class="ch-num">CHAPTER 12</div>
+        <h3>建造我們的未來</h3>
+        <p>公司即是慈善、公司創造財富、公司驅動進步</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch13.html">
+        <div class="ch-num">CHAPTER 13</div>
+        <h3>豐裕時代</h3>
+        <p>稀缺的終結、指數級智慧、升級人類心智</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch14.html">
+        <div class="ch-num">CHAPTER 14</div>
+        <h3>我們的生存風險</h3>
+        <p>第三次世界大戰、AI 超級智慧、人口崩潰、小行星威脅</p>
+      </a>
+      <a class="ch-card fade-up" href="chapters/ch15.html">
+        <div class="ch-num">CHAPTER 15</div>
+        <h3>成為多行星物種</h3>
+        <p>進化級別的事件、通往火星的門戶、建造新世界</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>基於《The Book of Elon》by Eric Jorgenson · 深度學習筆記</p>
+    <p style="margin-top:8px">繁體中文版製作：<a href="https://www.threads.com/@eugeneliu1027?hl=zh-tw" target="_blank" style="color:var(--accent)">@eugeneliu1027</a></p>
+  </div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
